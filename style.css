@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+}
+
+#yellowC {
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    align-content: center;
+    text-align: center;
+}
+
+#whiteC {
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+input {
+    display: inline-block;
+    margin: 10px;
+}
+
+#guessField {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textBox {
+    padding: 20px;
+    border: black 10px;
+}
